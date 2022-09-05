@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(255, 255, 204);
+}
+
+.btn{
+    border-radius: 15px;
+}
+
+
+nav span{
+    font-size: larger;
+}
+
+header .row{
+    padding: 15px;
+}
+
+header .row form{
+    justify-content: center;
+}
+
+header .row form .ex{
+    width: 70%;
+}
+
+header .row .tag{
+    color: yellow;
+    text-shadow: 2px 2px 5px red;
+}
+
+
+
+header .row span{
+    color: red;
+    font-size: 40px;
+    text-shadow: 2px 2px 5px yellow;
+}
+
+nav div li:hover{
+    background-color: yellow;
+}
+
+.organic_align img{
+    height: auto;
+    width: 100%;
+    opacity: 0.75;
+}
+
+.organic_align{
+    display: flex;
+}
+
+.firstHeading, .secondHeading, .thirdHeading, .fourthHeading{
+    justify-content: center;
+    margin:80px 0px 40px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bolder;
+  }
+
+.card_align{
+    display: flex;
+    margin: 20px 20px;
+  }
+
+  .card{
+    margin: 5px;
+  }
+
+  .card_align a{
+    align-items: baseline;
+    
+  }
+
+  .card{
+    background-color: #343a40;
+  }
+
+  .card-body{
+    color: white;
+  }
+
+  .footer{
+    background-color: yellow;
+  }
+
+@media only screen and (max-width: 750px){
+  #logButton{
+    display: none !important;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+  .form{
+    margin: 100px;
+    background-color: yellow;
+  }
+
+.heading{
+    text-align: center;
+    font-size: 60px;
+    padding: 150px 0px 0px
+}
+
+.form_row{
+    padding: 3px;
+    background-color: yellow;
+}
